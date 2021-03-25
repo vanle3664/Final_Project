@@ -1,5 +1,6 @@
 #pragma once
 #include "gamestatebase.h"
+#include "GameButton.h"
 
 class Sprite2D;
 class Sprite3D;
