@@ -1,0 +1,54 @@
+﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  GSPlay.cpp
+C:\Users\DELL\Desktop\Gameloft\Programming_lesson_06\TrainingFramework\src\GameStates\GSPlay.h(35,28): error C2065: 'GameButton': undeclared identifier
+C:\Users\DELL\Desktop\Gameloft\Programming_lesson_06\TrainingFramework\src\GameStates\GSPlay.h(35,17): error C2923: 'std::shared_ptr': 'GameButton' is not a valid template type argument for parameter '_Ty'
+C:\Users\DELL\Desktop\Gameloft\Programming_lesson_06\TrainingFramework\src\GameStates\GSPlay.h(35,17): error C3203: 'shared_ptr': unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
+C:\Users\DELL\Desktop\Gameloft\Programming_lesson_06\TrainingFramework\src\GameStates\GSPlay.cpp(34,60): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\DELL\Desktop\Gameloft\Programming_lesson_06\TrainingFramework\src\GameStates\GSPlay.cpp(34,42): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\DELL\Desktop\Gameloft\Programming_lesson_06\TrainingFramework\src\GameStates\GSPlay.cpp(46,31): error C2664: 'void std::list<int,std::allocator<int>>::push_back(_Ty &&)': cannot convert argument 1 from 'std::shared_ptr<GameButton>' to '_Ty &&'
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\DELL\Desktop\Gameloft\Programming_lesson_06\TrainingFramework\src\GameStates\GSPlay.cpp(46,31): message : Reason: cannot convert from 'std::shared_ptr<GameButton>' to '_Ty'
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\DELL\Desktop\Gameloft\Programming_lesson_06\TrainingFramework\src\GameStates\GSPlay.cpp(46,25): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\list(972,10): message : see declaration of 'std::list<int,std::allocator<int>>::push_back'
+  GSMenu.cpp
+C:\Users\DELL\Desktop\Gameloft\Programming_lesson_06\TrainingFramework\src\GameStates\GSMenu.cpp(26,60): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\DELL\Desktop\Gameloft\Programming_lesson_06\TrainingFramework\src\GameStates\GSMenu.cpp(26,42): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\DELL\Desktop\Gameloft\Programming_lesson_06\TrainingFramework\src\GameStates\GSMenu.cpp(32,36): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\DELL\Desktop\Gameloft\Programming_lesson_06\TrainingFramework\src\GameStates\GSMenu.cpp(42,36): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\DELL\Desktop\Gameloft\Programming_lesson_06\TrainingFramework\src\GameStates\GSMenu.cpp(52,36): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\DELL\Desktop\Gameloft\Programming_lesson_06\TrainingFramework\src\GameStates\GSMenu.cpp(64,57): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xutility(138,73): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\memory(2194): message : see reference to function template instantiation 'void std::_Construct_in_place<_Ty,std::shared_ptr<Shaders>&,std::shared_ptr<Font>&,const char(&)[12],TEXT_COLOR,double>(_Ty &,std::shared_ptr<Shaders> &,std::shared_ptr<Font> &,const char (&)[12],TEXT_COLOR &&,double &&) noexcept(false)' being compiled
+          with
+          [
+              _Ty=Text
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\memory(2907): message : see reference to function template instantiation 'std::_Ref_count_obj2<_Ty>::_Ref_count_obj2<std::shared_ptr<Shaders>&,std::shared_ptr<Font>&,const char(&)[12],TEXT_COLOR,double>(std::shared_ptr<Shaders> &,std::shared_ptr<Font> &,const char (&)[12],TEXT_COLOR &&,double &&)' being compiled
+          with
+          [
+              _Ty=Text
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\memory(2907): message : see reference to function template instantiation 'std::_Ref_count_obj2<_Ty>::_Ref_count_obj2<std::shared_ptr<Shaders>&,std::shared_ptr<Font>&,const char(&)[12],TEXT_COLOR,double>(std::shared_ptr<Shaders> &,std::shared_ptr<Font> &,const char (&)[12],TEXT_COLOR &&,double &&)' being compiled
+          with
+          [
+              _Ty=Text
+          ]
+C:\Users\DELL\Desktop\Gameloft\Programming_lesson_06\TrainingFramework\src\GameStates\GSMenu.cpp(63): message : see reference to function template instantiation 'std::shared_ptr<Text> std::make_shared<Text,std::shared_ptr<Shaders>&,std::shared_ptr<Font>&,const char(&)[12],TEXT_COLOR,double>(std::shared_ptr<Shaders> &,std::shared_ptr<Font> &,const char (&)[12],TEXT_COLOR &&,double &&)' being compiled
+  Generating Code...
+  Compiling...
+  GameStatebase.cpp
+C:\Users\DELL\Desktop\Gameloft\Programming_lesson_06\TrainingFramework\src\GameStates\GSPlay.h(35,28): error C2065: 'GameButton': undeclared identifier
+C:\Users\DELL\Desktop\Gameloft\Programming_lesson_06\TrainingFramework\src\GameStates\GSPlay.h(35,17): error C2923: 'std::shared_ptr': 'GameButton' is not a valid template type argument for parameter '_Ty'
+C:\Users\DELL\Desktop\Gameloft\Programming_lesson_06\TrainingFramework\src\GameStates\GSPlay.h(35,17): error C3203: 'shared_ptr': unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
+  Generating Code...
